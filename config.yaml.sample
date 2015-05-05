@@ -1,0 +1,8 @@
+aws_access_key_id: 
+aws_secret_access_key: 
+rabbitmq_user: 
+rabbitmq_pass: 
+rabbit_host: 
+rabbit_port: 
+rabbit_vhost: 
+rabbit_queue: 
