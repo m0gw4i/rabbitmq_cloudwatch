@@ -3,7 +3,7 @@ require 'fog/aws'
 require 'yaml'
 require 'sidekiq'
 
-$config = YAML.load_file(File.expand_path('config.yaml' , __FILE__))
+$config = YAML.load_file(File.expand_path('../config.yaml' , __FILE__))
 
 Sidekiq.configure_server do |config|
   config.redis = { :namespace => 'x' }
